@@ -1,85 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <link rel="shortcut icon" type="image/png" href="assets/img/fav.png"/>
-        <title>New Years Countdown</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/main.css">
-         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77026625-4"></script>
-        <meta name="description" content="New Years Countdown Timer"/>
-        <meta property="og:title" content="New Years Countdown Timer"/>
-        <meta property="og:url" content="https://mosesokemwa.github.io/new-year/"/>
-        <meta property="og:description" content="New Years Countdown Timer">
-        <meta property="og:image" content="//raw.githubusercontent.com/mosesokemwa/new-year/master/assets/img/webpage_300x200.png">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="assets/img/fav.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 
-        <meta property="og:type" content="website" />
 
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
 
-          gtag('config', 'UA-77026625-4');
-        </script>
+    <!-- Primary Meta Tags -->
+    <title>New Years Countdown</title>
+    <meta name="title" content="New Years Countdown">
+    <meta name="description" content="A minimal global countdown timer">
 
-    </head>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mosesokemwa.github.io/new-year/">
+    <meta property="og:title" content="New Years Countdown">
+    <meta property="og:description" content="A minimal global countdown timer">
+    <meta property="og:image" content="//raw.githubusercontent.com/mosesokemwa/new-year/master/assets/img/image.png">
 
-    <body>
-        <div class="wrapper">
-            <div class="container text-center">
-                <div class="col-md-12">
-                    <h1 id="header" class="">New Year Countdown</h1>
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <div class="clock">
-                        <div class="well top-pane">
-                            <div id="days" class="num">00</div>
-                        </div>
-                        <div class="well bottom-pane">
-                            <div id="days-text" class="text">Days</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <div class="clock">
-                        <div class="well top-pane">
-                            <div id="hours" class="num">00</div>
-                        </div>
-                        <div class="well bottom-pane">
-                            <div id="hours-text" class="text">Hours</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <div class="clock">
-                        <div class="well top-pane">
-                            <div id="mins" class="num">00</div>
-                        </div>
-                        <div class="well bottom-pane">
-                            <div id="mins-text" class="text">Minutes</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <div class="clock">
-                        <div class="well top-pane">
-                            <div id="secs" class="num">00</div>
-                        </div>
-                        <div class="well bottom-pane">
-                            <div id="secs-text" class="text">Seconds</div>
-                        </div>
-                    </div>
-                </div>
-                <div id="info" class="small"></div>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mosesokemwa.github.io/new-year/">
+    <meta property="twitter:title" content="New Years Countdown">
+    <meta property="twitter:description" content="A minimal global countdown timer">
+    <meta property="twitter:image"
+        content="//raw.githubusercontent.com/mosesokemwa/new-year/master/assets/img/image.png">
+    <meta property="og:type" content="website" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77026625-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-77026625-4');
+    </script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container text-center">
+            <div class="col-md-12">
+                <h1 id="header" class="">New Year Countdown</h1>
             </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="clock">
+                    <div class="well top-pane">
+                        <div id="days" class="num">00</div>
+                    </div>
+                    <div class="well bottom-pane">
+                        <div id="days-text" class="text">Days</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="clock">
+                    <div class="well top-pane">
+                        <div id="hours" class="num">00</div>
+                    </div>
+                    <div class="well bottom-pane">
+                        <div id="hours-text" class="text">Hours</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="clock">
+                    <div class="well top-pane">
+                        <div id="mins" class="num">00</div>
+                    </div>
+                    <div class="well bottom-pane">
+                        <div id="mins-text" class="text">Minutes</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="clock">
+                    <div class="well top-pane">
+                        <div id="secs" class="num">00</div>
+                    </div>
+                    <div class="well bottom-pane">
+                        <div id="secs-text" class="text">Seconds</div>
+                    </div>
+                </div>
+            </div>
+            <div id="info" class="small"></div>
         </div>
+    </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-        <script src="assets/js/main.js"></script>
-    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
 
 </html>
